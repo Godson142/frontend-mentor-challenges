@@ -109,6 +109,13 @@ p {
   box-shadow: 1px 1px 10px #000;
   color: #5e5a5a;
 }
+
+.register-button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+
 /*Take note of this place. The styles to the content of the divs*/
 #first-sub-div-child {
   max-width: 900px;
@@ -298,6 +305,11 @@ p {
   margin-top: 100px;
   margin-bottom: 40px;
   align-items: center;
+}
+
+.social-icons svg:hover {
+  color: rgb(255, 0, 255);
+  cursor: pointer;
 }
 
 .facebook,
