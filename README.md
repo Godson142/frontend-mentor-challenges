@@ -31,8 +31,9 @@ Users should be able to:
 
 ### Screenshot
 
-![./images/desktop-screenshot.png] 
-![./images/mobile-screenshot.png]
+![Desktop Screenshot](./images/desktop-screenshot.png) 
+
+![Mobile Screenshot](./images/mobile-screenshot.png)
 
 ### Links
 
@@ -84,7 +85,7 @@ Also, I would like focus on Responsive Design(Mobile Design). I barely scratch t
 
 - Website - [Godson](https://godson142.github.io/personal-project/)
 - Frontend Mentor - [Godson142](https://www.frontendmentor.io/profile/Godson142)
-- [Godson] (https://www.twitter.com/Hokage12584241)
+- Twitter - [Godson] (https://www.twitter.com/Hokage12584241)
 
 
 ## Acknowledgments
