@@ -85,7 +85,7 @@ Also, I would like focus on Responsive Design(Mobile Design). I barely scratch t
 
 - Website - [Godson](https://godson142.github.io/personal-project/)
 - Frontend Mentor - [Godson142](https://www.frontendmentor.io/profile/Godson142)
-- Twitter - [Godson] (https://www.twitter.com/Hokage12584241)
+- Twitter - [Godson](https://www.twitter.com/Hokage12584241)
 
 
 ## Acknowledgments
