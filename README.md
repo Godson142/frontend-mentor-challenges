@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Godson142/frontend-mentor-challenges](https://your-solution-url.com)
-- Live Site URL: [https://godson142.github.io/frontend-mentor-challenges/](https://your-live-site-url.com)
+- Solution URL: [Click This Link To Check My Solution Approach](https://github.com/Godson142/frontend-mentor-challenges/)
+- Live Site URL: [Click This Link To View Live Site](https://godson142.github.io/frontend-mentor-challenges/)
 
 ### Built with
 
