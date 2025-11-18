@@ -1,0 +1,585 @@
+body {
+  background: url(./images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(187, 75%, 76%);
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.logo {
+  margin: 10px 30px;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.first-sub-div {
+  height: 500px;
+  width: 900px;
+
+  background-color: #ece9e9;
+  border-radius: 20px;
+  z-index: 1;
+  margin: 40px;
+}
+
+.second-sub-div {
+  width: 250px;
+  height: 500px;
+  background-color: #dfdede;
+  position: absolute;
+  z-index: 10;
+  right: -30px;
+  top: 200px;
+  border-radius: 20px;
+}
+
+.two-sub-divs {
+  position: relative;
+}
+
+.text-div {
+  padding: 10px 50px;
+}
+
+.first-header-in-sub-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  height: 30px;
+  background-color: rgb(14, 14, 39);
+  border-radius: 20px 20px 0 0;
+}
+
+.second-header-in-sub-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 20px;
+  background-color: rgb(14, 14, 39);
+  border-radius: 10px 10px 0 0;
+}
+
+.first-blank-logo-container {
+  width: 150px;
+  height: 15px;
+  background-color: #cfcfcf;
+  border-radius: 5px;
+}
+
+.second-blank-logo-container {
+  width: 90px;
+  height: 15px;
+  background-color: #cfcfcf;
+  border-radius: 5px;
+}
+
+.register-button {
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 10px #000;
+  color: #5e5a5a;
+}
+/*Take note of this place. The styles to the content of the divs*/
+#first-sub-div-child {
+  max-width: 900px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  position: absolute;
+  top: 60px;
+  right: -10px;
+}
+
+.profile-one {
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 103, 154),
+    rgb(224, 134, 0)
+  );
+  border-radius: 200px;
+}
+
+.profile-two {
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(21, 239, 255),
+    rgb(24, 148, 231)
+  );
+  border-radius: 200px;
+}
+
+.profile-three {
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(
+    to top,
+    rgb(189, 21, 255),
+    rgb(231, 24, 186)
+  );
+  border-radius: 200px;
+}
+
+.first-sub-div-grandchild {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.text-clones {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.one,
+.two,
+.three,
+.four {
+  background-color: rgb(203, 204, 203);
+  height: 10px;
+}
+
+.one {
+  width: 150px;
+  height: 25px;
+}
+
+.two {
+  width: 500px;
+}
+
+.three {
+  width: 450px;
+}
+
+.four {
+  width: 400px;
+}
+
+.small-circles-container {
+  display: flex;
+  position: absolute;
+  right: 120px;
+  top: 115px;
+  gap: 5px;
+}
+
+.small-circle {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(197, 197, 197);
+  border-radius: 200px;
+}
+
+/*This styles the second div contents*/
+
+#second-sub-div-child {
+  width: 240px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.second-sub-div-grandchild {
+  display: flex;
+  gap: 10px;
+  padding-left: 5px;
+}
+
+.small-profile-one {
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 103, 154),
+    rgb(224, 134, 0)
+  );
+  border-radius: 200px;
+}
+
+.small-profile-two {
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(21, 239, 255),
+    rgb(24, 148, 231)
+  );
+  border-radius: 200px;
+}
+
+.small-profile-three {
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(
+    to top,
+    rgb(189, 21, 255),
+    rgb(231, 24, 186)
+  );
+  border-radius: 200px;
+}
+
+.mobile-text-clones {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ichi,
+.ni,
+.san,
+.yon {
+  background-color: rgb(203, 204, 203);
+  height: 4px;
+}
+
+.ichi {
+  width: 50px;
+  height: 6px;
+}
+
+.ni {
+  width: 150px;
+}
+
+.san {
+  width: 120px;
+}
+
+.yon {
+  width: 90px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  margin-right: 20px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.facebook,
+.twitter,
+.instagram {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1140px;
+  }
+
+  .logo svg {
+    width: 150px;
+  }
+
+  .logo {
+    margin-left: -130px;
+  }
+
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+  }
+
+  .first-sub-div {
+    max-width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: -25px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .second-sub-div {
+    width: 120px;
+    height: 220px;
+    border-radius: 10px;
+    position: absolute;
+    right: -25px;
+    top: 105px;
+    z-index: 100;
+  }
+
+  .text-div {
+    text-align: center;
+  }
+
+  .first-header-in-sub-div {
+    height: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .second-header-in-sub-div {
+    height: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .menu {
+    height: 15px;
+    width: 15px;
+  }
+
+  .first-blank-logo-container {
+    width: 80px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+  .second-blank-logo-container {
+    width: 50px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+  #first-sub-div-child {
+    width: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .profile-one {
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(
+      to top,
+      rgb(255, 103, 154),
+      rgb(224, 134, 0)
+    );
+    border-radius: 200px;
+  }
+
+  .profile-two {
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(21, 239, 255),
+      rgb(24, 148, 231)
+    );
+    border-radius: 200px;
+  }
+
+  .profile-three {
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(
+      to top,
+      rgb(189, 21, 255),
+      rgb(231, 24, 186)
+    );
+    border-radius: 200px;
+  }
+
+  .first-sub-div-grandchild {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: -10px;
+    bottom: 45px;
+  }
+
+  .text-clones {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    background-color: rgb(203, 204, 203);
+    height: 3px;
+  }
+
+  .one {
+    width: 50px;
+    height: 5px;
+  }
+
+  .two {
+    width: 100px;
+  }
+
+  .three {
+    width: 90px;
+  }
+
+  .four {
+    width: 80px;
+  }
+
+  .small-circles-container {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 35px;
+    top: 5px;
+  }
+
+  .small-circle {
+    width: 7px;
+    height: 7px;
+    background-color: rgb(203, 204, 203);
+    border-radius: 200px;
+  }
+
+  /*This styles the second div contents*/
+
+  #second-sub-div-child {
+    width: 120px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+  }
+
+  .second-sub-div-grandchild {
+    display: flex;
+    gap: 10px;
+    padding-left: 5px;
+  }
+
+  .small-profile-one {
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(
+      to top,
+      rgb(255, 103, 154),
+      rgb(224, 134, 0)
+    );
+    border-radius: 200px;
+  }
+
+  .small-profile-two {
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(21, 239, 255),
+      rgb(24, 148, 231)
+    );
+    border-radius: 200px;
+  }
+
+  .small-profile-three {
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(
+      to top,
+      rgb(189, 21, 255),
+      rgb(231, 24, 186)
+    );
+    border-radius: 200px;
+  }
+
+  .mobile-text-clones {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .ichi,
+  .ni,
+  .san,
+  .yon {
+    background-color: rgb(203, 204, 203);
+    height: 2px;
+  }
+
+  .ichi {
+    width: 20px;
+    height: 3px;
+  }
+
+  .ni {
+    width: 60px;
+  }
+
+  .san {
+    width: 50px;
+  }
+
+  .yon {
+    width: 40px;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-top: 80px;
+  }
+
+  .facebook,
+  .twitter,
+  .instagram {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+  }
+}
